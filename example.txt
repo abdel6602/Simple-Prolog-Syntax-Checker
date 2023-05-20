@@ -1,0 +1,22 @@
+predicates
+
+graph(symbol,symbol)
+
+run
+
+/* this is a comment block*/
+
+clauses
+
+graph("hello world").
+
+graph(345.47, 336).
+
+graph(a,b).
+graph(c,d).
+graph(a,d).
+run.
+
+goal
+run.
+graph(c,X).
